@@ -5,12 +5,12 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 
 
-plotly.tools.set_credentials_file(username='Artyom', api_key='fvjfvarc5q')
+plotly.tools.set_credentials_file(username='Artyom', api_key='')
 
 
 domain = "https://api.vk.com/method"
-access_token = 'e3f62530856c961f85e38daa2f3239055c886ad5721db910c23a839922e19dba37d0a3058adaef30ce78c'
-user_id = 143090364
+access_token = ''
+user_id = 
 
 
 def get_friends(user_id, fields):
